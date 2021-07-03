@@ -1330,7 +1330,7 @@ margin: 0 0.14em;
 
 box #modulegroups-iop-header:first-child
 {
-  border-top: 0.07em solid @button_bg;
+  border-left-color: @field_hover_bg;   /* make the border left visible with chosen color if category on sidebar is selected */
 }
 
 

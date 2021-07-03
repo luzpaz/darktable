@@ -381,8 +381,7 @@ int dt_masks_events_mouse_leave(struct dt_iop_module_t *module);
 int dt_masks_events_mouse_enter(struct dt_iop_module_t *module);
 
 /** functions used to manipulate gui data */
-void dt_masks_gui_form_create(dt_masks_form_t *form, dt_masks_form_gui_t *gui, int index,
-                              struct dt_iop_module_t *module);
+void dt_masks_gui_form_create(dt_masks_form_t *form, dt_masks_form_gui_t *gui, int index);
 void dt_masks_gui_form_remove(dt_masks_form_t *form, dt_masks_form_gui_t *gui, int index);
 void dt_masks_gui_form_test_create(dt_masks_form_t *form, dt_masks_form_gui_t *gui, struct dt_iop_module_t *module);
 void dt_masks_gui_form_save_creation(dt_develop_t *dev, struct dt_iop_module_t *module, dt_masks_form_t *form,
